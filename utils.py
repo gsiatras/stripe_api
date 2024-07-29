@@ -1,5 +1,6 @@
 import stripe
 
+
 def get_existing_price(product_id: str, amount: int, currency: str = 'eur'):
     """
     Check if a price with the same amount and currency already exists for a given product.
